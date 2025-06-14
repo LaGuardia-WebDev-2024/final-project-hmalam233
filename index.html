@@ -20,12 +20,14 @@ Select ONE Additional Feature to Add
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
+`
+      
       /* Styling Only Related To THIS Page */
       /*~~~~~ Taken From:
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
       .parallax {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url;
 
         /* Set a specific height */
         min-height: 500px;
@@ -45,8 +47,8 @@ Select ONE Additional Feature to Add
         display: flex;
       }
       .child-flex {
-        background-color: green;
-        margin: 30px;
+        background-color: rgb(107, 114, 129 );
+        margin: 90px;
         padding: 10px;
         text-align: justify;
         width: 40%;
@@ -54,15 +56,31 @@ Select ONE Additional Feature to Add
       .para-1{
         display: flex;
         align-items: center;
+       
       }
+      h1{
+       color:white
+      }
+      
+      img{
+        display: block;
+        margin: 0 auto;
+        border:6px solid white
+      }
+      
     </style>
+    
+    
+    
+    
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
-      <li><a class="active" href="index.html">Home</a></li>
+       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
         <a target="_blank" href=""
@@ -81,11 +99,15 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
-    <div class="parallax"></div>
+    <h1>Hakimah Malam Website</h1>
+    <div class="parallax">
+    
+    <img src="https://cdn.glitch.global/10835fbe-e250-4f6b-9632-cab2025b55b6/IMG_2776.JPG?v=1749486049099" width="500">
+    </div>
 
     <div class="textblock parent-flex">
       <div class="child-flex para-1">
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
           faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
